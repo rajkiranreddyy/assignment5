@@ -1,0 +1,25 @@
+<html>
+<head>
+<!--<script src="Myinfo.js"></script>
+
+-->
+<style>
+
+
+
+</style>
+</head>
+<body  >
+    <div ng-show="set">
+        <h1>YOU REGISTERED SUCCESSFULLY</h1>
+<p>First name-->{{name1}}</p>
+<p>Last name-->{{name2}}</p>
+<p>Email-->{{name3}}</p>
+<p>Phone-->{{name4}}</p>
+<p>Favourite item for your choice--->{{name5}}</p>
+<p>About-->{{name6}}</p>
+<img height="100px" width="100px" src="images/menu/{{name5.charAt(0)}}/{{name5.charAt(0)}}.jpg" alt="  ">
+</div>
+<div ng-hide="set"><p>Nothing to display,not yet registered</p><button style="color:black" ui-sref="public.SignUp">Click here to signUp</button></div>
+
+</html>
